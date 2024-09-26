@@ -31,10 +31,10 @@ img {
 .header {
     display: flex;
     flex-direction: column;
-    gap: 6rem;
+    gap: 105px;
     color: #f9faf8;
     background-color: #1f2837;
-    padding: 1.125rem 10rem;
+    padding: 22px 170px;
     flex: 4 0 80vh;
 }
 
@@ -44,47 +44,47 @@ img {
 }
 
 .navbar-title {
-    font-size: 1.5rem;
+    font-size: 24px;
     font-weight: 900;
 }
 
 .nav {
     display: flex;
-    gap: 1.5rem;
+    gap: 24px;
     color: #e5e7eb;
-    font-size: 1.125rem;
+    font-size: 18px;
     list-style: none;
 }
 
 .hero {
     display: flex;
-    gap: 2rem;
+    gap: 32px;
 }
 
 .hero-text {
-    padding: .5rem 0;
+    padding: 8px 0;
     flex: 1;
 }
 
 .hero-title {
-    font-size: 3rem;
+    font-size: 48px;
     font-weight: 900;
 }
 
 .hero-para {
     color: #e5e7eb;
-    font-size: 1.125rem;
+    font-size: 18px;
 }
 
 .hero-btn {
     color: inherit;
     background-color: #3882f6;
-    font-size: 1.125rem;
+    font-size: 18px;
     font-weight: 700;
     border-style: none;
-    border-radius: .5rem;
-    margin: .5rem 0;
-    padding: .5rem 2rem;
+    border-radius: 8px;
+    margin: 8px 0;
+    padding: 6px 32px;
 }
 
 .hero-img {
@@ -92,7 +92,45 @@ img {
     justify-content: center;
     align-items: center;
     background-color: grey;
-    width: 32rem;
-    height: 14rem;
-    border-radius: 0.125rem;
+    width: 512px;
+    height: 236px;
+    border-radius: 2px;
+}
+
+/* Style for Section 1 */
+
+#section-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 52px;
+    color: #1f2837;
+    padding: 52px;
+    flex: 3 0 75vh;
+}
+
+.cards-title {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.cards {
+    display: flex;
+    gap: 48px;
+}
+
+.card {
+    width: 166px;
+    text-align: center;
+}
+
+.card-image {
+    width: 166px;
+    height: 166px;
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+}
+
+.card-text {
+    margin: 8px 0;
 }
