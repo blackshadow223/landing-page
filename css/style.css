@@ -35,7 +35,7 @@ img {
     color: #f9faf8;
     background-color: #1f2837;
     padding: 22px 170px;
-    flex: 4 0 80vh;
+    flex: 4 0 532px;
 }
 
 .navbar {
@@ -98,7 +98,6 @@ img {
 }
 
 /* Style for Section 1 */
-
 #section-1 {
     display: flex;
     flex-direction: column;
@@ -106,7 +105,7 @@ img {
     gap: 52px;
     color: #1f2837;
     padding: 52px;
-    flex: 3 0 75vh;
+    flex: 3 0 512px;
 }
 
 .cards-title {
@@ -133,4 +132,29 @@ img {
 
 .card-text {
     margin: 8px 0;
+}
+
+/* Style for Section 2 */
+#section-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1f2837;
+    background-color: #e5e7eb;
+    flex: 2 0 432px;
+}
+
+.quote {
+    width: 800px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.quote-credit {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: right;
 }
