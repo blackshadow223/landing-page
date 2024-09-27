@@ -85,6 +85,8 @@ img {
     border-radius: 8px;
     margin: 8px 0;
     padding: 6px 32px;
+    cursor: pointer;
+    flex-shrink: 0;
 }
 
 .hero-img {
@@ -157,4 +159,32 @@ img {
     font-size: 24px;
     font-weight: 600;
     text-align: right;
+}
+
+/* Style for Section 3 */
+#section-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 98px;
+    flex: 2 0 300px;
+}
+
+.blue-container {
+    width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    color: #f9faf8;
+    background-color: #3882f6;
+    padding: 52px 128px;
+    border-radius: 8px;
+}
+
+.blue-subtext {
+    color: #e5e7eb;
+}
+
+.blue-btn {
+    background-color: transparent;
+    border: 2px solid #e5e7eb;
 }
