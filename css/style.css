@@ -188,3 +188,14 @@ img {
     background-color: transparent;
     border: 2px solid #e5e7eb;
 }
+
+/* Style for Footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    background-color: #1f2837;
+    font-size: 18px;
+    flex: 1 0 96px;
+}
